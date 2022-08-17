@@ -8,7 +8,7 @@ from keras.preprocessing import image
 
 
 #Load the saved model
-model = tf.keras.models.load_model("InceptionV3.h5")
+model = tf.keras.models.load_model("fire_model.h5")
 video = cv2.VideoCapture(0)
 while True:
         _, frame = video.read()
